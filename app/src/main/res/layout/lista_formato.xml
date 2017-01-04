@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.diego.proyectorecyclerview.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <!-- <include
+
+            android:id="@+id/actionbar"
+            layout="@layout/toolbar"></include>-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="305dp"
+            android:layout_height="293dp"
+
+            android:layout_gravity="center"
+            android:id="@+id/cardview1"
+
+
+            >
+            <RelativeLayout
+                android:id="@+id/cuadrocardbelow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/mascota1"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="263dp"
+                    android:src="@drawable/mascota1"/>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mascota1"
+                    android:layout_marginTop="5dp">
+
+
+                    <TextView
+                        android:id="@+id/nombremascota"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/mascota1"
+                        android:layout_marginLeft="43dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/nombremascota"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/mascota1"
+                        android:id="@+id/cantidadvaloracion"
+                        android:layout_marginLeft="250dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/cantidadvaloracion"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/huesoamarillo"
+                        android:src="@drawable/huesoamarillo"
+                        android:layout_below="@id/mascota1"
+                        android:layout_marginLeft="270dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/huesoblanco"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@id/mascota1"
+                        android:src="@drawable/huesoblanco" />
+                </android.support.v7.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="cantidadvaloracion">0</string>
+    <string name="nombremascota">Nombre</string>
+    <string name="title_activity_cinco_ultimas2">cinco_ultimas2</string>
+    <string name="title_activity_cincoultimas_t">cincoultimasT</string>
+</resources>
